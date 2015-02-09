@@ -1,5 +1,5 @@
 # fs-enhance
-generate files by the sample files
+generate files by the sample files, [see more](http://www.kkyfj.com/opensource/fs-enhance)
 
 ###Installation
 
@@ -12,13 +12,13 @@ npm install -g fs-enhance
 ####fsEnhance.copyFile
 copy file
 
-parameter:
+######parameter:
 
 * `src`: `String` source file path
 * `target`: `String` target file path
 * `cb`: `Function` the callback for error occur
 
-example:
+######example:
 
 ```javascript
 var fsEnhance = require('fs-enhance');
@@ -33,12 +33,12 @@ fsEnhance.copyFile('aaa.js', 'bbb.js', function(err) {
 ####fsEnhance.mkdir
 create folders in folder path, is similar to mkdir -p aaa/bbb/ccc
 
-parameter:
+######parameter:
 
 * `dirpath`: `String` source folder path
 * `mode`: `String|Number` folder's file mode, mode defaults to 0777
 
-example:
+######example:
 
 ```javascript
 var fsEnhance = require('fs-enhance');
@@ -49,7 +49,7 @@ fsEnhance.mkdir('aaa/bbb/ccc');
 ####fsEnhance.readDir
 traversal folder then excute the callback
 
-parameter:
+######parameter:
 
 * `src`: `String` source file path
 * `cb`: `Function` the callback for each file or folder
@@ -61,7 +61,7 @@ parameter:
 }
 ```
 
-example:
+######example:
 
 ```javascript
 var fsEnhance = require('fs-enhance');
