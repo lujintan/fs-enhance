@@ -1,5 +1,5 @@
 # fs-enhance
-generate files by the sample files, [see more](http://www.kkyfj.com/opensource/fs-enhance)
+extend file system apis for some more complex operation, [more info](http://www.kkyfj.com/opensource/fs-enhance)
 
 ###Installation
 
