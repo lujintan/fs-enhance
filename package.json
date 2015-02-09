@@ -1,0 +1,24 @@
+{
+  "name": "fs-enhance",
+  "version": "1.0.2",
+  "description": "extend the node file system api",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lujintan/fs-enhance.git"
+  },
+  "keywords": [
+    "fileapi",
+    "copyfile",
+    "readfolder"
+  ],
+  "author": "lujintan",
+  "license": "https://github.com/lujintan/fs-enhance/blob/master/LICENSE",
+  "bugs": {
+    "url": "https://github.com/lujintan/fs-enhance/issues"
+  },
+  "homepage": "https://github.com/lujintan/fs-enhance"
+}
