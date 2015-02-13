@@ -1,7 +1,7 @@
 {
   "name": "fs-enhance",
-  "version": "1.0.2",
-  "description": "extend the node file system api",
+  "version": "1.0.3",
+  "description": "extend file system apis for some more complex operation",
   "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
